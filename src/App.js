@@ -1,5 +1,6 @@
 import logo from './assets/logo.svg';
 import me from './assets/me.jpg'
+import music from './assets/bgm.mp3'
 import './css/App.css';
 
 function App() {
@@ -26,8 +27,11 @@ function App() {
           Learn React
         </a>
       </header>
-      <body>
-
+      <body className="App-body">
+        <p>James Arthur - Say you won't let go</p>
+        <audio autoplay controls={true}>
+          <source src={music} type="audio/mpeg"/>
+        </audio>
       </body>
     </div>
   );
