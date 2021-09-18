@@ -2,9 +2,9 @@
 
 Github Page for website
 
-## Initialize repository
+## Initialize git repository
 
-```
+```shell
 git clone git@github.com:BebeShen/BebeShen.github.io.git
 echo "Hello World" > index.html
 git add .
@@ -12,17 +12,15 @@ git commit -m "[Init] Initial commit"
 git push -u origin main
 ```
 
-
-
-
-## 使用React來打造網頁
-
-```
-npm init react-app my-app
-```
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Initialize project
+
+```shell
+cd .. && npm init react-app bebeshen
+```
 
 ## Available Scripts
 
@@ -91,8 +89,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-# Reference
+## Reference
 
 * [在github建立靜態網站--kejyun](https://github.com/kejyun/github-page)
 * [Github.Pages.com](https://pages.github.com/)
