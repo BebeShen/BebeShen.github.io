@@ -28,7 +28,11 @@ function App() {
         </a>
       </header>
       <body className="App-body">
-        <p>James Arthur - Say you won't let go</p>
+      <div>
+        <div class="marquee">
+          <div class="marquee-text">James Arthur - Say you won't let go</div>
+        </div>
+      </div>
         <audio autoplay controls={true}>
           <source src={music} type="audio/mpeg"/>
         </audio>
